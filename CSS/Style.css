@@ -12,6 +12,13 @@ a:hover{
     Color:red;
 }
 
+.button{
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    border:none;
+}
+
 #mainheader{
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
@@ -58,4 +65,10 @@ footer{
 
 img{
     align-content: center;
+}
+
+.fixed{
+    position:fixed;
+    bottom:400px;
+    right:0;
 }
