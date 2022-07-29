@@ -5,10 +5,7 @@
         <link rel="stylesheet" href="CSS/Style.css">
     </head>
     <body>
-        <div>
-            <Header id="mainheader">Touhou propaganda</Header>
-        </div>
-        
+
         <div>
             <navbar id="navbar">
                 <ul>
@@ -18,6 +15,10 @@
                     <p>Please don't click any of these as they are not working at the moment</p>
                 </ul>
             </navbar>
+        </div>
+
+        <div>
+            <Header id="mainheader">Touhou propaganda</Header>
         </div>
 
         <div>
@@ -32,8 +33,8 @@
                     <p>The Touhou Project (東方Project), also 東方プロジェクト (Touhou Purojekuto) or Project Shrine Maiden, is a Japanese doujin game series that specialises in shoot 'em ups by sole Team Shanghai Alice member ZUN. Generally, it's a series of 2D (with 3D background) vertically-scrolling danmaku shooting games, that also creates related print works and music CDs. There are also six fighting game spinoffs co-produced with Twilight Frontier, called "danmaku action games." The works of Touhou Project are sometimes called the Touhou Series (東方シリーズ Tōhō shirīzu) for convenience.</p>
                     <p>The Guinness World Records named the Touhou Project as the "world's most prolific fan-made shooter series."</p>    
                     <p><a href="https://en.touhouwiki.net/wiki/Touhou_Project">Source</a></p>                
-                    <img src="images/gameplay 1.jpg">
-                    <img src="images/gameplay 2.jpg">
+                    <img class="img1" src="images/gameplay 1.jpg">
+                    <img class="img2" src="images/gameplay 2.jpg">
                 </div>
                 
                 <div name="head2">
@@ -46,7 +47,7 @@
                 <div name="head2">
                     <h3>3.Touhou is just Touhou</h3>
                     <p>Nothing can go wrong with playing a shoot 'em ups game.</p>
-                    <img src="images/touhou-okina.gif">
+                    <img class="img3" src="images/touhou-okina.gif">
                 </div>
 
                 <div name="head2">
@@ -62,8 +63,9 @@
         </div>
         <forum id="forum">
             <div>
-            <input id="message" class="text" type="text" placeholder="Your message" required>
-            <button class="button" type="submit" value="Submit">Send</button>
+                <input id="message" class="text" type="text" placeholder="Your message" required>
+                <button class="button" type="submit" value="Submit">Send</button>
+                <div class="msg"></div>
             </div>
             <div><!--message board-->
                 <ul id="messages">
