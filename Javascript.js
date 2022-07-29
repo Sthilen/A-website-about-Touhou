@@ -1,11 +1,16 @@
 const myforum = document.querySelector('#forum');
-const messageInput = document.querySelector('#message');
-const userMessage = document.querySelector('messages');
+const messageInput = document.querySelector('#message.text');
+const userMessage = document.querySelector('#messages');
+const msg = document.querySelector('.msg');
 
-myforum.addEventListener('submit', onSubmit);
+myforum.addEventListener('submit', onsubmit);
 
-function onSubmit(e) {
+function onsubmit(e) {
     e.preventDefault();
 
-    console.log(messageInput);
+    if(messageInput.value === '') {
+        msg.innerHTML = 'Please enter message';
+    } else {
+        console.log('success')
+    }
 }
