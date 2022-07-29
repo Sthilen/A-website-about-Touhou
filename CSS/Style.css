@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    color:black;
 }
 
 a:hover{
@@ -13,6 +14,12 @@ a:hover{
     border:none;
 }
 
+.button:hover{
+    color:black;
+    background-color: White;
+    border:1px solid black;
+}
+
 #mainheader{
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,17 +27,37 @@ a:hover{
     line-height: 1.6cm;
     margin:0;
 }
+
 #navbar{
     text-align: center;
     margin: auto;
+    overflow: hidden;
 }
+
 #navbar ul{
     list-style: none;
     padding:0;
+    background-color: rgb(59, 58, 58);
+    color:white;
 }
 
 #navbar li{
     display: inline;
+    color:white;
+    list-style: none;
+}
+
+#navbar li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    z-index: 1  ;
+    display: inline;
+}
+#navbar li a:hover{
+    color:red;
+    background-color:white;
 }
 
 h1{
@@ -59,7 +86,13 @@ footer{
 }
 
 img{
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1{
+    position: inherit;
 }
 
 .fixed{
@@ -74,4 +107,12 @@ body{
 
 h4{
     text-align:center;
+}
+
+.text{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 50px;
+    position: inherit;
 }
